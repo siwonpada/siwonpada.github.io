@@ -24,24 +24,24 @@ const TitleSection = ({}: TitleSectionProps) => {
 
       <Flex>
         <Text size={font(0.875)}>
-          <StylessA href="mailto:dohyun682@gmail.com" hasIcon={false}>
-            dohyun682@gmail.com
+          <StylessA href="mailto:psw041115@gmail.com" hasIcon={false}>
+            psw041115@gmail.com
           </StylessA>{" "}
-          | 010-3351-0168 |{" "}
-          <StylessA href="https://github.com/dohyun-ko" hasIcon={false}>
-            github.com/dohyun-ko
+          | 010-4304-8821 |{" "}
+          <StylessA href="https://github.com/siwonpada" hasIcon={false}>
+            github.com/siwonpada
           </StylessA>{" "}
           |{" "}
           <StylessA
-            href="https://www.linkedin.com/in/dohyun-ko-92b885212"
+            href="https://www.linkedin.com/in/siwonpada"
             hasIcon={false}
           >
-            linkedin.com/in/dohyun-ko-92b885212
+            linkedin.com/in/siwonpada
           </StylessA>
           <br />
           Detailed Resume:{" "}
-          <StylessA href="https://dohyun.is-a.dev/resume" hasIcon={false}>
-            dohyun.is-a.dev
+          <StylessA href="https://siwonpada.github.io/resume" hasIcon={false}>
+            siwonpada.github.io
           </StylessA>
         </Text>
       </Flex>

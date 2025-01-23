@@ -24,7 +24,7 @@ interface SkillSectionProps {}
 
 const skills = [
   {
-    name: "React",
+    name: "NestJS",
     level: 5,
   },
   {
@@ -32,29 +32,36 @@ const skills = [
     level: 4,
   },
   {
-    name: "Next.js",
-    level: 3,
-  },
-
-  {
     name: "Python",
-    level: 3,
-  },
-  {
-    name: "NestJS",
-    level: 2,
+    level: 4,
   },
   {
     name: "FastAPI",
-    level: 2,
+    level: 4,
   },
   {
-    name: "Flutter",
+    name: "Docker",
+    level: 4,
+  },
+  {
+    name: "C#, .NET",
+    level: 3,
+  },
+  {
+    name: "Kotlin",
     level: 2,
   },
   {
     name: "C++",
     level: 2,
+  },
+  {
+    name: "Rust",
+    level: 2,
+  },
+  {
+    name: "Assembly",
+    level: 1,
   },
 ];
 
@@ -73,13 +80,13 @@ const SkillSection = ({}: SkillSectionProps) => {
         <Text>전문:</Text>
 
         <Text font={Font.SourceCodePro} className={"source-code-pro"}>
-          React&nbsp; TypeScript&nbsp; Next.js
+          NestJS&nbsp; TypeScript
         </Text>
 
         <Text>활용:</Text>
 
         <Text font={Font.SourceCodePro}>
-          Python&nbsp; NestJS&nbsp; FastAPI&nbsp; Flutter
+          Docker&nbsp; Python&nbsp; FastAPI&nbsp; C#, .NET&nbsp; Kotlin
         </Text>
       </Grid>
     </>

@@ -2,7 +2,7 @@ const experience = {
   experiences: [
     {
       name: "GIST Center for photon Information Processing (PIP)",
-      isImportant: false,
+      isImportant: true,
       color: "#b509ac",
       job: "인턴",
       startedAt: "2024-09-02",
@@ -10,7 +10,7 @@ const experience = {
       projects: [
         {
           name: "랩 인턴",
-          isImportant: false,
+          isImportant: true,
           startedAt: "2024-01",
           endedAt: "2024-05",
           description:

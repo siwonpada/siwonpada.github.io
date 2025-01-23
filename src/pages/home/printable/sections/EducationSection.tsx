@@ -35,31 +35,9 @@ const EducationSection = ({}: EducationSectionProps) => {
           </Flex>
         </Flex>
         <Flex flexDirection={"column"}>
-          <Text size={font(1)}>TGPA 4.04 / 4.5</Text>
+          <Text size={font(1)}>TGPA 4.00 / 4.5</Text>
           <Text size={font(0.75)}>2022. 2 – </Text>
         </Flex>
-
-        {/* <Flex flexDirection={"column"} width={"100%"} gap={"10px"}>
-          <Text size={font(0.75)} weight={"bold"}>
-            {t("education.attendedLecture")}
-          </Text>
-
-          <Flex gap={"0 10px"} wrap={"wrap"}>
-            <Text size={font(0.75)}>
-              {(
-                t("education.attendedLectures", {
-                  returnObjects: true,
-                }) as string[]
-              ).map((item, index, array) => (
-                <span key={item}>
-                  {index < array.length - 1
-                    ? [item, <span style={{ padding: "0 6px" }}>|</span>]
-                    : item}
-                </span>
-              ))}
-            </Text>
-          </Flex>
-        </Flex> */}
       </Card>
     </>
   );
