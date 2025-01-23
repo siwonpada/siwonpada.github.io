@@ -45,6 +45,20 @@ export const main = {
           "브라우저 환경에서 성능 테스트 결과 해시 반복 연산 작업에서 React보다 110배 가량 빠른 성능을 보임",
         ],
       },
+      {
+        name: "2025년 KAIST-MIT 양자 정보 겨울학교",
+        isImportant: true,
+        url: "",
+        startedAt: "2025-01-06",
+        endedAt: "2025-01-17",
+        description:
+          "MIT와 KAIST에서 공동으로 진행하는 양자 정보 겨울학교에 참가했습니다.",
+        whatIDid: [
+          "양자 컴퓨팅의 기초 이론을 배움",
+          "양자 컴퓨터의 플랫폼과 그 원리에 대해 배움",
+          "양자 정보와 관련된 Lab Tour 진행",
+        ],
+      },
     ],
   },
   award: {
@@ -72,7 +86,7 @@ export const main = {
       },
       {
         name: "2023 Creative Space G A.I. & IoT Makerthon: 🥈 2등",
-        isImportant: false,
+        isImportant: true,
         startedAt: "2023-10",
         endedAt: "2023-11",
       },
