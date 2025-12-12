@@ -80,13 +80,14 @@ const SkillSection = ({}: SkillSectionProps) => {
         <Text>전문:</Text>
 
         <Text font={Font.SourceCodePro} className={"source-code-pro"}>
-          NestJS&nbsp; TypeScript
+          Python
         </Text>
 
         <Text>활용:</Text>
 
         <Text font={Font.SourceCodePro}>
-          Docker&nbsp; Python&nbsp; FastAPI&nbsp; C#, .NET&nbsp; Kotlin
+          Docker&nbsp; Pytorch&nbsp; FastAPI&nbsp; C#, .NET&nbsp; Kotlin &nbsp;
+          TypeScript&nbsp; NestJS
         </Text>
       </Grid>
     </>

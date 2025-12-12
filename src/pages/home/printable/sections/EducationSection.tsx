@@ -35,8 +35,8 @@ const EducationSection = ({}: EducationSectionProps) => {
           </Flex>
         </Flex>
         <Flex flexDirection={"column"}>
-          <Text size={font(1)}>TGPA 4.00 / 4.5</Text>
-          <Text size={font(0.75)}>2022. 2 – </Text>
+          <Text size={font(1)}>TGPA 4.02 / 4.5</Text>
+          <Text size={font(0.75)}>2022. 2 – 2026. 2 (expected) </Text>
         </Flex>
       </Card>
     </>
