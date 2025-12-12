@@ -33,11 +33,11 @@ const EducationSection = ({}: EducationSectionProps) => {
                   GIST
                 </Text>
                 <Text size={"1rem"}>{t("education.major")}</Text>
-                <Text size={"1rem"}>2022. 2 – </Text>
+                <Text size={"1rem"}>2022. 2 – 2026. 2 (expected)</Text>
               </Flex>
             </Flex>
 
-            <Text size={"1rem"}>TGPA 4.00 / 4.5</Text>
+            <Text size={"1rem"}>TGPA 4.02 / 4.5</Text>
           </Flex>
 
           <Flex flexDirection={"column"} width={"100%"} gap={"10px"}>

@@ -1,16 +1,40 @@
 const experience = {
   experiences: [
     {
+      name: "GIST Meta-Evolutionary Machine Intelligence(MEMI) Lab",
+      isImportant: true,
+      color: "#007bbf",
+      job: "Intern",
+      startedAt: "2025-03-04",
+      endedAt: "2025-11-07",
+      projects: [
+        {
+          name: "Lab Intern",
+          isImportant: true,
+          startedAt: "2024-01",
+          endedAt: "2024-05",
+          description:
+            "I researched the QMR process required to run quantum algorithms on quantum computers, simplified the problem to a Token swapping problem, and proposed an approach using artificial neural network models to solve it.",
+          whatIDid: [
+            "QMR (Quantum Mapping and Routing) problem research",
+            "Proposed an approach using artificial neural network models",
+            "Simulator development and performance evaluation",
+          ],
+          techStacks: ["Python", "PyTorch", "pyTorch Geometric","Qiskit"],
+        },
+      ],
+    },
+    {
       name: "GIST Center for photon Information Processing (PIP)",
-      isImportant: false,
+      isImportant: true,
       color: "#b509ac",
-      job: "인턴",
+      job: "Intern",
       startedAt: "2024-09-02",
       endedAt: "2024-12-21",
       projects: [
         {
           name: "Lab Intern",
-          isImportant: false,
+          isImportant: true,
           startedAt: "2024-01",
           endedAt: "2024-05",
           description:
@@ -25,7 +49,7 @@ const experience = {
     },
     {
       name: "startup REGO",
-      isImportant: true,
+      isImportant: false,
       color: "#6f69c6",
       job: "Backend Developer",
       startedAt: "2022-06",
@@ -33,7 +57,7 @@ const experience = {
       projects: [
         {
           name: "REGO:now Backend",
-          isImportant: true,
+          isImportant: false,
           startedAt: "2022-06",
           endedAt: "2023-08",
           description: "Drive-centric same-day tourism content service",

@@ -60,7 +60,7 @@ const current = {
       isImportant: false,
       color: "rgb(151, 123, 242)",
       url: "https://wing-homepage.vercel.app/",
-      job: "주니어 부원",
+      job: "부원",
       startedAt: "2023-03",
       projects: [
         {

@@ -4,7 +4,7 @@ import experience from "./experience";
 export const main = {
   title: { developer: "undergraduate student", name: "Shiwon Park" },
   introduction:
-    "I am a student who is focusing on learning things related to computers. I am not only learning about computer science in general, but also maths and physics. Currently, I am studying quantum computing/algorithms.",
+    "I am a student who is focusing on learning things related to computers. I am not only learning about computer science in general, but also maths and physics. Currently, I am studying NCO.",
   current,
   education: {
     attendedLectures: [
@@ -18,9 +18,15 @@ export const main = {
       "Data Engineering",
       "Computer Architecture",
       "System Programming",
+      "Signals and Systems",
       "Introduction to Quantum Information Technology",
       "Introduction to Quantum Information Physics",
       "Quantum Physics and Rec I, II",
+      "Scientific Computing (Numerical Analysis)",
+      "Introduction to Combinatorial Optimization",
+      "Abstract Algebra",
+      "Number Theory and Applications",
+      "Complex Function Theory and Applications",
     ],
     attendedLecture: "Attended Courses",
     major: "Department of Electrical, Electronics, and Computer Engineering",

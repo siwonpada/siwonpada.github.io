@@ -24,15 +24,11 @@ interface SkillSectionProps {}
 
 const skills = [
   {
-    name: "NestJS",
+    name: "Python",
     level: 5,
   },
   {
     name: "TypeScript",
-    level: 4,
-  },
-  {
-    name: "Python",
     level: 4,
   },
   {
@@ -44,8 +40,20 @@ const skills = [
     level: 4,
   },
   {
+    name: "pyTorch",
+    level: 3,
+  },
+  {
+    name: "NestJS",
+    level: 3,
+  },
+  {
     name: "C#, .NET",
     level: 3,
+  },
+  {
+    name: "Qiskit",
+    level: 2,
   },
   {
     name: "Kotlin",
